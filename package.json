@@ -1,0 +1,23 @@
+{
+  "name": "Group47-StarLux-Cinemas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Seats.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SOFE2720/Group47-StarLux-Cinemas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SOFE2720/Group47-StarLux-Cinemas/issues"
+  },
+  "homepage": "https://github.com/SOFE2720/Group47-StarLux-Cinemas#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
