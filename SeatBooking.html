@@ -1,0 +1,159 @@
+<!--Creates the Seat Booking page-->
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="css/navBar.css"/>
+        <link rel="stylesheet" href="css/SeatStyle.css"/>
+        <title>StarLux Cinemas Seat Booking</title>
+
+        <script>
+
+            var b = JSON.parse(localStorage.getItem('selectedSeats'));
+
+            function check(){
+
+                if (b.length == 0){
+                    console.log(b.length);
+                    alert("You must choose at least one seat");
+                    location.reload();
+                    return false;
+                }
+
+            }
+        </script>
+    </head>
+
+    <body>
+
+        <img src="images/MainLogo.png" id="main"><br><br>
+        <div class="topnav">
+            <a href="main-page.html" id="home">Home</a>
+            <a href="Theatres Page.html">Theatres</a>
+            <a href="Movie_Experiences.html">Movie Experiences</a>
+            <a href="foods_and_drinks.html">Food and Drinks</a>
+            <a href="#LSFormT.php">Book Tickets</a>
+        </div>
+
+        
+
+        <div class="screen">
+            <div class="container">
+            
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>  
+            
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>  
+
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+            </div>  
+
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>  
+
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>  
+
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+            </div>  
+            
+        </div>
+
+        <h1 id="title">Select Your Seats</h1>
+
+        <p id="legend1">Available =</p>
+        <p id="legend2">Occupied =</p>
+        <p id="legend3">Selected =</p>
+        <p id="open"></p>
+        <p id="chosen"></p>
+        <p id="choice"></p><br><br><br><br>
+        
+        <form action="TicketForm.php" method="POST">
+
+            <select id = "theatres" name="theatres" onchange="change_titles()"required>
+                <option value = "">Select Theatre Location</option>
+                <option value = "1">Brampton</option>
+                <option value = "2">North York</option>
+                <option value = "3">Mississauga</option>
+                <option value = "4">Markham</option>
+            </select>
+            
+            <select name="movies" id="movies" size="4" onchange="check()" required>
+                <optgroup label="Select a Movie" class="size">
+                    <option>Enola Holmes</option>
+                    <option>Bird Box</option>
+                    <option>Avengers: Endgame</option>
+                    <option>Joker</option>
+                    <option>Jumanji: The Next Level</option>
+                    <option>Grown Ups</option>
+                    <option>The Hunger Games</option>
+                    <option>Mulan</option>
+                    <option>Despicable Me</option>
+                    <option>Jurassic World</option>
+                    <option>Knives Out</option>
+                    <option>Interstellar</option>
+                    <option>47 Meters Down: Uncaged</option>
+                    <option>The Lion King</option>
+                    <option>Deadpool</option>
+                </optgroup>
+            </select>
+            
+            <input type="submit" id = "continue" value="Continue">
+
+        </form>
+
+        <script src="Seats.js" type="text/javascript"></script>
+        <script src="changeTitles.js" type="text/javascript"></script>
+
+    </body>
+</html>

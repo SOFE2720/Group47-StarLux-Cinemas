@@ -1,0 +1,145 @@
+<!--Food and Drinks page for Starlux Cinemas-->
+
+<!--document type is html-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Food and Drinks</title>
+	<!--link the css stylesheet to the html page-->
+	<link rel = "stylesheet" type="text/css" href = "css/food_drinks.css">
+	<link rel = "stylesheet" type="text/css" href="css/navBar.css">
+	
+	<!--Link the css files and javascript files for the owl carousel package, owl carousel is a jquery that creates a responsive carousel slider -->
+	<link rel = "stylesheet" href = "owlcarousal.css">
+	<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</head>
+
+<body>
+	<!--insert the logo for starlux cinemas and the navigation bar -->
+	<img src = "images/MainLogo.png" alt = "Starlux Cinemas" id="main"><br><br>
+    <div class="topnav">
+        <a href="main-page.html" id="home">Home</a>
+        <a href="Theatres Page.html">Theatres</a>
+        <a href="Movie_Experiences.html">Movie Experiences</a>
+        <a href="foods_and_drinks.html" active>Food and Drinks</a>
+        <a href="LSFormT.php">Book Tickets</a>
+	</div><br><br>
+	
+	<!--create a new division for the popcorn image-->
+	<div id="popcornimage">
+		<!--Insert popcorn image and call the class-->
+		<img src = "images/popcorn.jpg" alt = "Popcorn image" class = "popcorn">
+	</div>
+
+	<!--division for the drinks, it will be sliders using owl-carousel jquery--> 
+	<div id ="drinksliders">
+		<fieldset style = "border:0">
+			<!--create a division with a class wrapper, so everything under the division will have the style from the class-->
+			<div class="wrapper">
+				<!--Define two classes for this division -->
+				<div class="carousel owl-carousel">
+					<!--insert the images, give an alternate text, and it will follow two classes for the styling-->
+					<div class="item"><img src="images/rootbeer.png" alt="Canada Dry" class="centerimg" width="100"></div>
+					<div class="item"><img src="images/coke.png" alt="Coca Cola" class="centerimg"></div>
+					<div class="item"><img src="images/fanta.png" alt="Fanta" class="centerimg"></div>
+					<div class="item"><img src="images/mountain dew.jpg" alt="Mountain Dew" class="centerimg"></div>
+					<div class="item"><img src="images/nestea 3.png" alt="Nestea" class="centerimg" ></div>
+					<div class="item"><img src="images/pepsi 1.jpg" alt="Pepsi" class="centerimg"></div>
+					<div class="item"><img src="images/Sprite.png" alt="Sprite" class="centerimg"></div>
+				</div>
+			</div>
+		
+			<!--inline script for the carousel to work, the carousel will be looped and auto play, showing 5 items on the screen-->
+			<script>
+				$(".carousel").owlCarousel({
+					margin:20,
+					stagepadding:50,
+					loop: true,
+					autoplay: true,
+					autoplayTimeout: 2000,
+					responsive:{
+						0:{
+							items:1
+						},
+						600:{
+							items: 3
+						},
+						1000:{
+							items:5
+						}
+					}
+				});
+			</script>
+		</fieldset>
+	<!--End of  the owl carousel and drink sliders division-->
+	</div>
+
+	<!--create a new section in the body for the combo tables-->
+	<!--The row and column division seperate each picture and description for the combos-->
+	<br>
+	
+	<table id = "combotable">
+		<tbody>
+			<tr class="row">
+				<!--Create a table for the first combo-->
+				<td class = "comb1col">
+					<!--insert the combo 1 image and description into two columns-->
+						<img src = "images/Combo 1.png" alt = "combo 1" class = "comboimg">
+
+						<p class = "combnamecol">Combo #1</p><br>
+						<b>What's included:</b><br><br>
+						Regular Sized Popcorn(1)<br>
+						Your Choice of Candy(1)<br>
+				</td>
+
+				<!--Create a new table for the 2nd combo-->
+				<td class = "comb2col">
+					<!--Insert the image and description for the second combo-->
+					<img src = "images/Combo 2.png" alt = "combo 2" class = "comboimg">
+
+					<p class = "combnamecol">Combo #2</p><br>
+					<b>What's included:</b><br><br>
+					Large Sized Popcorn(1)<br>
+					Your Choice of Candy(1)<br>
+					Your Choice of Fountain Drink(1)
+				</td>
+			</tr>
+			<tr class="row">
+				<!--Create a new table for the third combo-->
+				<td class = "comb3col">
+					<!--Insert the image and description for the third combo-->
+					<img src = "images/Combo 3.png" alt = "combo 3" class = "comboimg">
+
+					<p class = "combnamecol">Combo #3</p><br>
+					<b>What's included:</b><br><br>
+					Large Sized Popcorn(1)<br>
+					Your Choice of Candy(2)<br>
+					Your Choice of Fountain Drink(1)
+				</td>
+
+				<!--Create a new table for the 4th combo-->
+				<td class = "comb4col">
+					<!--insert the image and the description for the 4th combo-->
+					<img src = "images/Combo 4.png" alt = "combo 4" class = "comboimg">
+
+					<p class = "combnamecol">Combo #4</p><br>
+					<b>What's included:</b><br><br>
+					Medium Sized Popcorn(2)<br>
+					Your Choice of Candy(2)<br>
+					Your Choice of Fountain Drink(1)
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<br> 
+</body>
+
+</html>
+	
+
+
+	

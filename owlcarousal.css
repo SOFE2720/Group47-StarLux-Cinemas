@@ -1,0 +1,25 @@
+/*owl carousel styling for food and drinks page*/
+
+/*wrapper class, makes the width 100%*/
+.wrapper{
+	width: 100%;
+
+}
+
+/*the wrapper and carousel class, sets a max width, auto margins, and padding*/
+.wrapper .carousel{
+	max-width: 1200px;
+	margin: auto;
+	padding: 0 30px;
+}
+
+/*item class is for the images and boxes in the owl-carousel*/
+.carousel .item{
+	line-height: 250px;
+	color: #fff;
+	margin: 20px 0;
+	border-radius: 10px;
+	height: 150px;
+	width: 150px;
+}
+

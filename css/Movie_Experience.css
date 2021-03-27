@@ -1,0 +1,105 @@
+.expdesign{
+	margin: 15px 75px 10px; 
+	padding: 10px;
+}
+
+/*font for the imax experience*/
+.imaxfont{
+	font-family: sans-serif, bold;
+	font-size: 42px;
+	color: #3189e8;
+	text-align: left;
+	margin-left: 10%;
+}
+
+/*font for the dbox experience*/
+.dboxfont{
+	font-size: 42px;
+	color: #f79a05;
+	font-family: 'Fahkwang', sans-serif, italic;
+	text-align: left;
+	margin-left: 10%;
+}
+
+/*font for the 3D experience*/
+.realdfont{
+	font-size: 42px;
+	font-family: 'Lexend Giga', sans-serif;
+	color: #7696a3;
+	text-align: left;
+	margin-left: 10%;
+}
+
+/*font for the ultra avx experience*/
+.ultrafont{
+	font-size: 42px;
+	font-family: 'Linden Hill', serif;
+	color:#152096;
+	text-align: left;
+	margin-left: 10%;
+}
+
+/*font for the dolby atmos experience*/
+.atmosfont{	
+	font-size: 42px;
+	font-family: 'Baloo Bhaina 2', cursive;
+	color: #5e5f69;
+	text-align: left;
+	margin-left: 10%;
+}
+
+/*sets up the images for each experience*/
+.experienceimg{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 80%;
+}
+
+/*changes the color and aligns the p h2 and h3 tag elements*/
+p,h2, h3{
+	text-align: center;
+	font-family: arial;
+}
+
+/*sets up the location list*/
+.locationlist{
+    margin:0;
+    padding:0;
+    text-align: center;
+    list-style:none;
+    font-family: arial;   
+    font-size: 18px;
+    color:steelblue;             
+}
+
+/*changes the color and font for the h3 tag*/
+h3{
+	color:dodgerblue;
+	font-family: arial;
+	font-size:20px;
+}
+
+/*sets up the discover experience*/
+.discover{
+	font-family: arial; 
+	font-size: 3rem;
+	animation: color-change 3s infinite;
+}
+
+/*sets up the colors for the animation of the discover class*/
+@keyframes color-change {
+  	0% { color: red; }
+  	50% { color: blue; }
+  	100% { color: red; }
+}
+
+/*sets up the margins, color, and font weight for the subheader*/
+.subheader{
+	margin-left: 105px; 
+	margin-right: 100px; 
+	font-size: 1.3rem; 
+	color: slateblue; 
+	font-weight: bold;
+}
+

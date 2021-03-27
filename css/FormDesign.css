@@ -1,0 +1,207 @@
+/*Styles the Login and Sign Up Page*/
+
+#topline{
+
+    background-color: #052a5b;
+    display: block;
+    color: #052a5b;
+    font-size: 2px;
+    position: relative;
+    top: 20px;
+    margin-bottom: -50px;
+    margin-left: 20px;
+    margin-right: 20px;    
+
+}
+
+.movietype{
+
+    color: white;
+    font-weight: bold;
+    font-size: 15pt;
+    background-color: #052a5b;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 100px;
+    width: 1200px;
+
+}
+
+.Addmission{
+
+    position: relative;
+    top: 190px;
+    left: 200px;
+    font-size: 15pt;
+
+}
+
+.counter{
+
+    position: relative;
+    left: 1200px;
+    top: 115px;
+    font-size: 15pt;
+    width: 100px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    text-align: center;
+    
+}
+
+.price{
+
+    position: relative;
+    left: 1100px;
+    top: 140px;
+    font-size: 15pt;
+    font-weight: bold;
+    margin: 0 0 0 0;
+   
+}
+
+.Senior{
+
+    position: relative;
+    top: 180px;
+    left: 200px;
+    font-size: 15pt;
+
+}
+
+.child{
+
+    position: relative;
+    top: 180px;
+    left: 200px;
+    font-size: 15pt;
+
+}
+
+#bottomline{
+
+    background-color: #052a5b;
+    display: block;
+    color: #052a5b;
+    font-size: 2px;
+    position: relative;
+    top: 200px;
+    margin-left: 20px;
+    margin-right: 20px;    
+
+}
+
+#S{
+
+    position: relative;
+    font-weight: bold;
+    background-color: rgba(255, 255, 0, 0.37);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    width: 1230px;
+    font-size: 15pt;
+    top: 180px;
+    left: 80px;
+
+}
+
+#t{
+
+    position: relative;
+    font-weight: bold;
+    background-color: rgba(255, 255, 0, 0.37);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    width: 1230px;
+    font-size: 15pt;
+    top: 180px;
+    left: 80px;
+    margin-top: 40px;
+}
+
+#T{
+
+    position: relative;
+    font-weight: bold;
+    background-color: rgba(255, 255, 0, 0.37);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    width: 1230px;
+    font-size: 15pt;
+    top: 180px;
+    left: 80px;
+    margin-bottom: 20px;
+
+
+}
+
+#order{
+
+    color: white;
+    font-weight: bold;
+    font-size: 15pt;
+    background-color: #052a5b;
+    position: relative;
+    top: 80px;
+    left: 80px;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 150px;
+    width: 1200px;
+
+}
+
+#subtotal{
+
+    position: relative;
+    font-weight: bold;
+    font-size: 15pt;
+    bottom: 150px;
+    left: 1200px;
+
+}
+
+#total{
+
+    position: relative;
+    font-weight: bold;
+    font-size: 15pt;
+    bottom: 45px;
+    left: 1200px;
+
+}
+
+#tax{
+
+    position: relative;
+    font-weight: bold;
+    font-size: 15pt;
+    bottom: 90px;
+    left: 1200px;
+
+}
+
+#title{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    color: #f5b000;
+    font-size: 35pt;
+    font-weight: bold;
+}
+
+#home{
+    padding-left: 50px;
+}

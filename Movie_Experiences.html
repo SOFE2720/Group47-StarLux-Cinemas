@@ -1,0 +1,118 @@
+<!--Movie Experience Page-->
+<!--Lets user know it is a html document-->
+<!DOCTYPE html>
+<html>
+
+<!--header includes title and the fonts from google fonts api-->
+<head>
+	<title>Movie Experience</title>
+	<link rel = "stylesheet" type = "text/css" href = "css/Movie_Experience.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/navBar.css">
+</head>
+
+<!--body will include the starlux logo and nav bar, and all the movie experiences-->
+<body>
+	<img src="images/MainLogo.png" id="main"><br><br>
+	<div class="topnav">
+		<a href="main-page.html" id="home">Home</a>
+		<a href="Theatres Page.html">Theatres</a>
+		<a href="Movie_Experiences.html" active>Movie Experiences</a>
+		<a href="foods_and_drinks.html">Food and Drinks</a>
+		<a href="LSFormT.php">Book Tickets</a>
+	</div>
+
+	<!--division for the imax experience-->
+	<div id = "Imax" class = "expdesign">
+		<!--call the class to set the css properties for the header-->
+		<h2 class = "imaxfont">IMAX</h2>
+		<!--insert the image with a set height and call the class to add other css properties to it-->
+		<img src = "images/imax1.jpg" alt = "Imax Theatre" height = "400" class = "experienceimg">
+		<!--call header to set css properties for the font-->
+		<h2 class = "discover">Discover IMAX</h2>
+		<!--give a description of the movie experience, set some css properties-->
+		<p class = "subheader">Experience films to the fullest with IMAX. The film is revamped to bring you into a new reality.</p>
+		<p style = "margin-right: 11%; margin-left: 10.8%; text-align: left;font-size: 18px"><b>IMAX Picture:</b> State-of-the-art projection systems produce the most crisp images on the biggest screen. It is more than just a movie screen- every frame of the film has been developed for cinematic clarity, detail and scale.<br><b>Immersive by Design:</b> Patented theatre design delivers the world's most advanced immersive film experience, having remote monitoring and real-time system adjustments. Every theatre is designed for a clear angle at every seat.<br><b>Precision Sound:</b> Propietary sound system delivers enveloping heart-pounding audio. Flawlessly tuned, innovative sound systems, and precise speaker orientation makes every note clearer and more dynamic.</p>
+		<!--Insert an unordered list of the locations of the cinemas where the experience can be found-->
+		<h3>Find IMAX at the Following Locations:</h3>
+		<ul class = "locationlist">
+			<li>Starlux Brampton Cinemas</li>
+			<li>Starlux North York Cinemas</li>
+			<li>Starlux Mississauga Cinemas</li>
+			<li>Starlux Markham Cinemas</li>
+		</ul>
+	</div>
+
+
+	<div id = "Dbox" class = "expdesign">
+		<h2 class = "dboxfont">D-BOX </h2>
+		<img src = "images/dbox1.jpg" alt = "Imax Theatre" height = "400" class = "experienceimg">
+		<h2 class = "discover">Discover D-Box</h2>
+		<p class = "subheader" style = "margin-left: 105px; margin-right: 100px;">Discover a hyper-realistic, immersive entertainment experience that moves the body and sparks the imagination through motion.</p>
+		<p style = "margin-right: 11%; margin-left: 11.5%; text-align: left;font-size: 18px">Motion Experience. Get the best seat in the house with captivating motion.<br>D-Box seats vibrate and move along with the events on-screen, adding an extra dimension to the movie.</p>
+		<h3 style = "color: red">**WARNING**</h3>
+		<p style = "margin-right: 11%; margin-left: 11.5%; text-align: left; text-indent: 30px">The D-Box motion system may be harmful to the eldery, pregnant women, people with conditions including heart, back, head, or neck, injuries or pre-existing medical conditions. Use of D-Box is not recommended for children under ten years of age without parental supervision. Min. weight must be atleast 45lbs/20.41kg. Any weight lighter may not activate the seat. Use of hot liquids in the surrounding area of the D-Box System must be avoided at all times to prevent spillage which could cause serious injuries to the user.</p>
+		<h3>Find D-Box at the Following Locations:</h3>
+		<ul class = "locationlist">
+			<li>Starlux Brampton Cinemas</li>
+			<li>Starlux Mississauga Cinemas</li>
+		</ul>
+	</div>
+
+
+	<div id = "real3D" class = "expdesign">
+		<h2 class = "realdfont" >REAL-D 3D</h2>
+		<img src = "images/3D1.jpg" alt = "Imax Theatre" height = "400" class = "experienceimg"> 
+		<h2 class = "discover">Discover Real-D 3D</h2>
+		<p class = "subheader">See movies in another dimension with Real-D 3D. RealD offers an experience you won't forget.</p>
+		<p style = "margin-right: 9%; margin-left: 10.2%; text-align: left;font-size: 18px">The new generation of entertainment with crisp and precise 3D images so realistic you feel like you've stepped inside the movie. RealD 3D adds depth that puts you in the thick action.</p>
+		<p style = "margin-right: 9%; margin-left: 10.2%; text-align: left;font-size: 18px">Delivering a stunningly lifelike and completely immersive entertainment experience every time. So advanced that you can really feel what you're seeing happen on screen.</p>
+		<h3>Find Real-D 3D at the Following Locations:</h3>
+		<ul class = "locationlist">
+			<li>Starlux Brampton Cinemas</li>
+			<li>Starlux North York Cinemas</li>
+			<li>Starlux Mississauga Cinemas</li>
+			<li>Starlux Markham Cinemas</li>
+		</ul>
+	</div>
+
+
+	<div id = "ultraAVX" class = "expdesign">
+		<h2 class = "ultrafont">ULTRA AVX</h2>
+		<img src = "images/ultraavx1.jpg" alt = "Imax Theatre" height = "400" class = "experienceimg">
+		<h2 class = "discover">Discover Ultra AVX</h2>
+		<p class = "subheader" style = "font-size: 1.4rem">The cinemas next level experience!</p>
+		<p style = "margin-right: 12%; margin-left: 12%; text-align: left;font-size: 18px">Featuring a giant wall-to-wall screen with memerizing picture quality, immersive sound featuring Dolby Atmos, and larger seats for your comfort.</p>
+		<h3>Find Ultra AVX at the Following Locations:</h3>
+		<ul class = "locationlist">
+			<li>Starlux Brampton Cinemas</li>
+			<li>Starlux Mississauga Cinemas</li>
+			<li>Starlux Markham Cinemas</li>
+		</ul>
+	</div>
+
+
+	<div id = "atmos" class = "expdesign">
+		<h2 class = "atmosfont">DOLBY ATMOS</h2>
+		<img src = "images/atmos1.jpg" alt = "Imax Theatre" height = "400" class = "experienceimg">
+		<h2 class = "discover">Discover Dolby Atmos</h2>
+		<p class = "subheader" style = "font-size: 1.4rem">Feel every dimension with Dolby Atmos</p>
+		<p style = "margin-right: 12%; margin-left: 12%; text-align: left; font-size: 18px"><b>Dolby Sound:</b> Presents a powerful new listening experience. Sound technology that truly allows you to hear the whole picture. Atmos delivers a dramatic new listening experience with powerful bass and booming subwoofers.<br><b>Dolby Picture:</b> Expect striking imaging, where the action comes alive in a dramatically different image.<br><b>Immersive by Design:</b> Taking comfort to the next level with larger, high-powered, recliners that pulsate with the action. </p>
+		<h3>Find Dolby Atmos at the Following Locations:</h3>
+		<ul class = "locationlist">
+			<li>Starlux North York Cinemas</li>
+		</ul>
+	</div>
+
+	
+
+
+	
+</body>
+
+
+</html>

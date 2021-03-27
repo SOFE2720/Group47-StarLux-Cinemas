@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <!--attach css files-->
+    <link rel="stylesheet" href="css/navBar.css" type="text/css">
+    <link rel="stylesheet" href="css/Main_Page.css" type="text/css">
+</head>
+<body>
+    <script src="changePosters.js"></script>
+    <!--StarLux Cinemas logo-->
+    <img src="images/MainLogo.png" id="main"><br><br>
+    <!--navigation bar-->
+    <div class="topnav">
+        <a href="main-page.html" id="home" active>Home</a>
+        <a href="Theatres Page.html">Theatres</a>
+        <a href="Movie_Experiences.html">Movie Experiences</a>
+        <a href="foods_and_drinks.html">Food and Drinks</a>
+        <a href="LSFormT.php">Book Tickets</a>
+    </div>
+    
+    <div id="rectangle">
+        <!--dropdown list of theatre locations-->
+        <div class="theatre">
+            <select id="theatre" required>
+                <option selected disabled>Choose Your Theatre</option>
+                <option value="brampton">Brampton Cinemas</option>
+                <option value="north">North York Cinemas</option>
+                <option value="sauga">Mississauga Cinemas</option>
+                <option value="markham">Markham Cinemas</option>
+            </select>
+        </div>
+        <!--date selection-->
+        <div id="date">
+            <input type="date" id="start" name="start"
+                value="2020-12-04" min="2020-12-04" max="2021-02-01" required>
+        </div><br>
+        <input type="submit" value="Submit" class="button" onclick="change_posters()">
+    </div><br>
+
+    
+    <h1>All Movies</h1><hr>
+
+    <!--displays movie posters-->
+    <div class="tposters">
+        <form action="Movie_Info.php" method="GET">
+            <table id="poster-table">
+                <tr>
+                    <td><button type="submit" name="selectedMovie" value="tt7846844"><img name = "posters" src="https://m.media-amazon.com/images/M/MV5BZjNkNzk0ZjEtM2M1ZC00MmMxLTlmOWEtNWRlZTc1ZTUyNzY4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg" class="posters"/></button>
+                    <td><button type="submit" name="selectedMovie" value="tt2737304"><img name = "posters" src="https://m.media-amazon.com/images/M/MV5BMjAzMTI1MjMyN15BMl5BanBnXkFtZTgwNzU5MTE2NjM@._V1_SX300.jpg" class="posters"/></td></button>
+                    <td><button type="submit" name="selectedMovie" value="tt4154796"><img name = "posters" src="https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg" class="posters"/></td></button>
+                    <td><button type="submit" name="selectedMovie" value="tt7286456"><img name = "posters" src="https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg" class="posters"/></td></button>
+                    <td><button type="submit" name="selectedMovie" value="tt7975244"><img name = "posters" src="https://m.media-amazon.com/images/M/MV5BOTVjMmFiMDUtOWQ4My00YzhmLWE3MzEtODM1NDFjMWEwZTRkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg" class="posters"/></td></button>
+                </tr>
+                <tr>
+                    <td><button type="submit" name="selectedMovie" value="tt1375670"><img name = "posters" src="https://m.media-amazon.com/images/M/MV5BMjA0ODYwNzU5Nl5BMl5BanBnXkFtZTcwNTI1MTgxMw@@._V1_SX300.jpg" class="posters"/></td></button>
+                    <td><button type="submit" name="selectedMovie" value="tt1392170"><img name = "posters" src="https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_SX300.jpg" class="posters"></td></button>
+                    <td><button type="submit" name="selectedMovie" value="tt4566758"><img name = "posters" src="https://m.media-amazon.com/images/M/MV5BNDliY2E1MjUtNzZkOS00MzJlLTgyOGEtZDg4MTI1NzZkMTBhXkEyXkFqcGdeQXVyNjMwMzc3MjE@._V1_SX300.jpg" class="posters"/></td></button>
+                    <td><button type="submit" name="selectedMovie" value="tt1323594"><img name = "posters"src="https://m.media-amazon.com/images/M/MV5BMTY3NjY0MTQ0Nl5BMl5BanBnXkFtZTcwMzQ2MTc0Mw@@._V1_SX300.jpg" class="posters"/></td></button>
+                    <td><button type="submit" name="selectedMovie" value="tt0369610"><img name = "posters" src="https://m.media-amazon.com/images/M/MV5BNzQ3OTY4NjAtNzM5OS00N2ZhLWJlOWUtYzYwZjNmOWRiMzcyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg" class="posters"/></td></button>
+                </tr>
+                <tr>
+                    <td><button type="submit" name="selectedMovie" value="tt8946378"><img name = "posters" src="https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_SX300.jpg" class="posters"/></td></button>
+                    <td><button type="submit" name="selectedMovie" value="tt0816692"><img name = "posters" src="https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg" class="posters"/></td></button>
+                    <td><button type="submit" name="selectedMovie" value="tt7329656"><img name = "posters" src="https://m.media-amazon.com/images/M/MV5BMDc1MmVjMDQtOGU3OS00OTJkLWJmOGQtNDMzMWRjNDAzY2Y2XkEyXkFqcGdeQXVyMTk5MzE1MTY@._V1_SX300.jpg" class="posters"/></td></button>
+                    <td><button type="submit" name="selectedMovie" value="tt6105098"><img name = "posters" src="https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_SX300.jpg" class="posters"/></td></button>
+                    <td><button type="submit" name="selectedMovie" value="tt1431045"><img name = "posters" src="https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg" class="posters"></td></button>
+                </tr>
+            </table>
+        </form>
+    </div><br><br>
+
+</body>
+</html>

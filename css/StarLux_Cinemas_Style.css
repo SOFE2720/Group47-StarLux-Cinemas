@@ -1,0 +1,60 @@
+#movie{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.movie_decription{
+    width:100%;
+    display: inline-block;
+}
+.movie_decription p{
+    font-size: 20px;
+}
+.movie_decription > img {
+    margin-right: 20px;
+    float: left;
+    max-width:30%; 
+    max-height: 400px;
+}
+.movie_info {
+    display: table;
+    border: solid #b2b2b2 3pt;
+    border-radius: 5pt;
+    padding: 32px 10px 32px 10px;
+    width: -webkit-fill-available;
+}
+.movie_header{
+    display: flow-root;
+    text-align-last: center;
+    padding: 5px 8px;
+    background-color: #052a5b;
+    color: lavenderblush;
+    border-radius: 8px;
+}
+.movie_header > p{
+    font-size: 14px;
+    display: contents;
+}
+#title{
+    float: left;
+    font-size: 30px;
+    color: #f5b000;
+}
+
+#imdbRating{
+    float: right;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 2px;
+    border: #f5b000 solid 2px;
+    border-radius: 4px;
+    margin-top: 7px;
+}
+#imdbRating > img{
+    float: left;
+    margin-right: 5px;
+}
+#imdbRating > label{
+    font-weight: bolder;
+    font-size: 25px;
+}

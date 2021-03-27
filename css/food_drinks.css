@@ -1,0 +1,93 @@
+/*Stylesheet for foods and drinks html doc*/
+
+/*sets up the wrapper class*/
+.wrapper{
+	background-color: white;
+}
+
+/*the background color for the combos section*/
+.combobackground{
+	background-color: #021834;
+}
+
+
+/*table element, collapse the borders, and make the width of the table 100%*/
+#combotable{
+	background-color: #021834;
+	width: 100%;
+}
+
+/*table data styling*/
+.row td {
+	float: left;
+	height: 100%;
+	width: 35%;
+	padding: 20px;
+	text-align: center;
+	margin: 20px 90px 20px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+
+/*sets up the table, no borders are shown*/
+table {
+	  border-collapse: collapse;
+}
+
+/*the specifications for the images of the combos*/
+.comboimg{
+	float: left;
+	width: 200px; 
+	height: 200px;
+	vertical-align: bottom;
+}
+
+/*the color of the name of the combos*/
+.combnamecol{
+	color: #052a5b;
+	text-align: center;
+	font-weight: bolder;
+}
+
+/*the background color of the first combo*/
+.comb1col{
+	background-color: #cccccc;
+}
+
+/*the background color of the second combo*/
+.comb2col{
+	background-color: #ffdba9;
+}
+
+/*the background color of the third combo*/
+.comb3col{
+	background-color: #c1e4f7;
+}
+
+/*the background color of the fourth combo*/
+.comb4col{
+	background-color: #ffbbb1;
+}
+
+/*center the images for the owl-carousel and add some other specifications*/
+.centerimg{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+ 	width: 50%;
+ 	height: 100%;
+}
+
+/*specifications for the popcorn image*/
+.popcorn{
+	width: 100%;
+	object-fit: cover;
+	object-position: 0px 51%;
+	height: 180px;
+	vertical-align: top;
+}
