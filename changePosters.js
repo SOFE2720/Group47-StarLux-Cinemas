@@ -3,6 +3,7 @@ function change_posters(){
     var postersBtn = document.getElementsByName("selectedMovie"); //gets poster buttons
     var posters = document.getElementsByName("posters"); //gets movie posters
     //IMDB ids of movies offered in brampton location
+    //test commit
     var brampton = ['tt7846844', 'tt4566758', 'tt7329656', 'tt4154796', 'tt0369610', 'tt1431045', 'tt6105098', 'tt1323594', 'tt8946378'];
     //poster urls of movies offered in brampton location
     var b_url = [
