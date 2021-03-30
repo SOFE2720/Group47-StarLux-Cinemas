@@ -5,5 +5,5 @@ describe("Test output", () => {
 });
 
 function outputTest(){
-    return true
+    return true;
 }
