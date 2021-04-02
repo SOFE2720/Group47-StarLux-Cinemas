@@ -1,9 +1,8 @@
-describe("Test output", () => {
-    test("it should output an output", () => {
-        expect(outputTest()).toEqual(true);
-    });
+const sum = require('../sum');
+const test_function = require('../changePosters')
+test('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toBe(3);
 });
-
-function outputTest(){
-    return true;
-}
+test('test function', () => {
+    expect(test_function(5)).toBe(5);
+  });

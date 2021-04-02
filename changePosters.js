@@ -93,3 +93,8 @@ function replace_posters(city, url, postersBtn, posters){
         postersBtn[i].style.display = "none";
     }
 }
+
+function test_function(a){
+    return a;
+}
+module.exports = test_function;
