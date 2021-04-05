@@ -59,11 +59,11 @@ body, html{
     font-size: 20pt;
 }
 
-#btn{
+.btn{
 
     background-color: #052a5b;
     margin-top: 20px;
-    width: 465px;
+    width: -webkit-fill-available;
     outline: none;
     border: none;
     font-weight: bold;
@@ -75,6 +75,7 @@ body, html{
 #Login{
     color: black;
     background-color:white;
+    height: fit-content;
 }
 
 #SignUp{

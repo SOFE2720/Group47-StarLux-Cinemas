@@ -26,7 +26,7 @@
             <label class= "label">Password</label>
             <input type="password" class="textbox" name="password" required>
 
-            <button type="submit" id="logbtn" name="login">Login</button>
+            <button type="submit" class="btn" name="login">Login</button>
 
         </form>
         </div>
@@ -40,8 +40,13 @@
     
                 <label class= "label">Password</label>
                 <input type="password" class="textbox" name="password" required>
+
+                <?php
+                /*<label class= "label">Email</label>
+                <input type ="email" class="textbox" name="email" required>*/ 
+                ?>
     
-                <button type="submit" id="signbtn" name="signup">Sign Up</button>
+                <button type="submit" class="btn" name="signup">Sign Up</button>
 
             </form>
 
