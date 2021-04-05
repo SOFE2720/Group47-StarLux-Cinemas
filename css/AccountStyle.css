@@ -59,19 +59,7 @@ body, html{
     font-size: 20pt;
 }
 
-#logbtn{
-
-    background-color: #052a5b;
-    margin-top: 20px;
-    width: 465px;
-    outline: none;
-    border: none;
-    font-weight: bold;
-    color: white;
-    height: 40px;
-}
-
-#signbtn{
+#btn{
 
     background-color: #052a5b;
     margin-top: 20px;
@@ -92,9 +80,5 @@ body, html{
 #SignUp{
     color: black;
     background-color:white;
+    height: fit-content;
 }
-
-
-
-
-
