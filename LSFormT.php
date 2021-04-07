@@ -41,10 +41,8 @@
                 <label class= "label">Password</label>
                 <input type="password" class="textbox" name="password" required>
 
-                <?php
-                /*<label class= "label">Email</label>
-                <input type ="email" class="textbox" name="email" required>*/ 
-                ?>
+                <label class= "label">Email</label>
+                <input type ="email" class="textbox" name="email" required>
     
                 <button type="submit" class="btn" name="signup">Sign Up</button>
 

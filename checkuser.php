@@ -35,9 +35,10 @@ if (isset($_POST['login'])){
 if (isset($_POST['signup'])) {
     $username = mysqli_real_escape_string($database, $_POST['username']);
     #encrypt password for customer safety
-    $password = password_hash(mysqli_real_escape_string($database, $_POST['password']), PASSWORD_DEFAULT); 
+    $password = password_hash(mysqli_real_escape_string($database, $_POST['password']), PASSWORD_DEFAULT);
+    $email = mysqli_real_escape_string($database, $_POST['email']); 
 
-    $query = "INSERT INTO users (Username, Password) VALUES('$username', '$password')";
+    $query = "INSERT INTO users (Username, Password, Email) VALUES('$username', '$password', '$email')";
 
     mysqli_query($database, $query);
 
