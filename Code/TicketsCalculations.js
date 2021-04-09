@@ -3,6 +3,7 @@
 var a = JSON.parse(localStorage.getItem('selectedSeats'));
 
 function total(){
+    var theatreLocation = document.getElementById('theatreLocation').value;
     // price = (getNumOfTickets('generalS') * 14.99) + (getNumOfTickets('seniorS') * 9.99) + (getNumOfTickets('childS') * 8.99) + (getNumOfTickets('general3') * 19.99) + (getNumOfTickets('senior3') * 14.99) + (getNumOfTickets('child3') * 13.99) + (getNumOfTickets('generalI') * 24.99) + (getNumOfTickets('seniorI') * 19.99) + (getNumOfTickets('childI') * 18.99);
     
     // if (location == 'Markham' || 'Brampton'){
@@ -32,7 +33,7 @@ function total(){
 
     //     localStorage.clear();
     // }
-    console.log('wokring');
+    console.log(theatreLocation);
 }
 
 // function Btotal(){

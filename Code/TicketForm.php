@@ -16,16 +16,16 @@
     </head>
 
     <body>
-        <form action="verification-page.php" method="POST">
+        <form id = "ticketform" action="verification-page.php" method="POST">
             <div id = "form">
                 <div>
                     <?php
-                    //$date = $_POST['date'];
+                    $date = $_POST['date'];
                     $location = $_POST['theatres']; 
-                    //$movie_name = $_POST['movies'];
+                    $movie_name = $_POST['movies'];
                     ?>
-                    <!-- <script type="text/javascript">var location = "<?=$location ?>";</script>
-                    <script type="text/javascript" src="TicketCalculations.js"></script> -->
+
+                    <input type="hidden" id="theatreLocation" value="<?php echo $location ?>" />
 
                     <h1 class = "title">StarLux <?php echo $location ?> Cinemas </h1>
                     
