@@ -12,6 +12,7 @@ body{
 .topnav{
     background-color: #333333;
     overflow: hidden;
+    display:flex;
 }
 
 .topnav a{

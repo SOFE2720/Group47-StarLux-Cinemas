@@ -2,6 +2,28 @@
 
 var a = JSON.parse(localStorage.getItem('selectedSeats'));
 
+function total(){
+    price = (getNumOfTickets('generalS') * 14.99) + (getNumOfTickets('seniorS') * 9.99) + (getNumOfTickets('childS') * 8.99) + (getNumOfTickets('general3') * 19.99) + (getNumOfTickets('senior3') * 14.99) + (getNumOfTickets('child3') * 13.99) + (getNumOfTickets('generalI') * 24.99) + (getNumOfTickets('seniorI') * 19.99) + (getNumOfTickets('childI') * 18.99) + (getNumOfTickets('generalD') * 29.99) + (getNumOfTickets('seniorD') * 24.99) + (getNumOfTickets('childD') * 23.99) + (getNumOfTickets('generalA') * 32.99) + (getNumOfTickets('seniorA') * 27.99) + (getNumOfTickets('childA') * 26.99) + (getNumOfTickets('generalAX') * 34.99) + (getNumOfTickets('seniorAX') * 29.99) + (getNumOfTickets('childAX') * 28.99);
+    
+    if (getNumOfTickets('generalS') + getNumOfTickets('seniorS') + getNumOfTickets('childS') + getNumOfTickets('general3') + getNumOfTickets('senior3') + getNumOfTickets('child3') + getNumOfTickets('generalI') + getNumOfTickets('seniorI')  + getNumOfTickets('childI') + getNumOfTickets('generalD') + getNumOfTickets('seniorD') + getNumOfTickets('childD') + getNumOfTickets('generalA') + getNumOfTickets('seniorA') + getNumOfTickets('childA') + getNumOfTickets('generalAX') + getNumOfTickets('seniorAX') + getNumOfTickets('childAX') > a.length){
+        alert ("You must choose exactly " + a.length + " ticket(s)");
+    }
+    else{
+        var ST = document.getElementById("subtotal");
+        ST.innerHTML = "$" + price.toFixed(2);
+
+        var tax = price * 0.13;
+        var T = document.getElementById("tax");
+        T.innerHTML = "$" + tax.toFixed(2);
+
+        var total = price * 1.13;
+        var t = document.getElementById("total");
+        t.innerHTML = "$" + total.toFixed(2);
+
+        localStorage.clear();
+    }
+}
+
 function Btotal(){
 
     var price = 0;
@@ -111,54 +133,50 @@ function Thanks(){
 }
 
 
-
-
-function standardG(){
-
-    var form = document.forms["ticketform"];
-    var SG = form.elements["generalS"];
-
-    var n = 0;
-
+function getNumOfTickets(idName){
+    var SG = document.forms["ticketform"].elements[idName];
     if (generalS.value !="")
     {
-        n = parseFloat(generalS.value);
+        return parseFloat(SG.value);
     }
+    else{
+        return 0;
+    }   
+}
 
-    return n;
-
+function standardG(){
+    var SG = document.forms["ticketform"].elements["generalS"];
+    if (generalS.value !="")
+    {
+        return parseFloat(SG.value);
+    }
+    else{
+        return 0;
+    }
 }
 
 function seniorG(){
-
-    var form = document.forms["ticketform"];
-    var SG = form.elements["seniorS"];
-
-    var n = 0;
+    var SG = document.forms["ticketform"].elements["seniorS"];
 
     if (seniorS.value !="")
     {
-        n = parseFloat(seniorS.value);
+        return parseFloat(SG.value);
     }
-
-    return n;
-
+    else{
+        return 0;
+    }
 }
 
 function childG(){
-
-    var form = document.forms["ticketform"];
-    var SG = form.elements["childS"];
-
-    var n = 0;
+    var SG = document.forms["ticketform"].elements["childS"];
 
     if (childS.value !="")
     {
-        n = parseFloat(childS.value);
+        return parseFloat(SG.value);
     }
-
-    return n;
-
+    else{
+        return 0;
+    }
 }
 
 function standard3d(){
