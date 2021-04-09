@@ -1,15 +1,11 @@
 <?php
+
 include 'checkUser.php';
 include 'TicketForm.php';
+
 session_start();
 
 $database = mysqli_connect('localhost', 'root', '', 'webfinal');
-
-if(isset($_POST['submit'])){
-    $date = $_POST['date'];
-    $location = $_POST['theatres'];
-    $movie_name = $_POST['movies'];
-}
 
 $email = $_SESSION['email'];
 
