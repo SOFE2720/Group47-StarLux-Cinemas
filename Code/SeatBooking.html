@@ -9,18 +9,15 @@
         <title>StarLux Cinemas Seat Booking</title>
 
         <script>
-
             var b = JSON.parse(localStorage.getItem('selectedSeats'));
 
             function check(){
-
                 if (b.length == 0){
                     console.log(b.length);
                     alert("You must choose at least one seat");
                     location.reload();
                     return false;
                 }
-
             }
         </script>
     </head>

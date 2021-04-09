@@ -8,11 +8,11 @@
         <img src="images/MainLogo.png" id="main"><br><br>
         <div class="topnav">
             <a href="main-page.html" id="home">Home</a>
-            <a href="Theatres Page.html">Theatres</a>
-            <a href="Movie_Experiences.html">Movie Experiences</a>
-            <a href="foods_and_drinks.html">Food and Drinks</a>
-            <a href="#LSFormT.php">Book Tickets</a>
-        </div>
+            <a href="Theatres Page.html" id="theatres">Theatres</a>
+            <a href="Movie_Experiences.html" id="movie-experiences">Movie Experiences</a>
+            <a href="foods_and_drinks.html" id="food-and-drinks">Food and Drinks</a>
+            <a href="LSFormT.php"><button id="btn">Book Tickets</button></a>
+    </div>
     </head>
 
     <body>
@@ -20,9 +20,9 @@
             <div id = "form">
                 <div>
                     <?php
-                    $date = $_POST['date'];
+                    //$date = $_POST['date'];
                     $location = $_POST['theatres']; 
-                    $movie_name = $_POST['movies'];
+                    //$movie_name = $_POST['movies'];
                     ?>
                     <!-- <script type="text/javascript">var location = "<?=$location ?>";</script>
                     <script type="text/javascript" src="TicketCalculations.js"></script> -->
