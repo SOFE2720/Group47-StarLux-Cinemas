@@ -1,18 +1,4 @@
 /*Styles the Checkout Page Page*/
-
-/* #topline{
-
-    background-color: #052a5b;
-    display: block;
-    color: #052a5b;
-    font-size: 2px;
-    position: relative;
-    top: 20px;
-    margin-bottom: -50px;
-    margin-left: 20px;
-    margin-right: 20px;    
-
-} */
 #form{
     margin: 0 10%;
     display: flex;
@@ -86,65 +72,6 @@
     padding-left: 10px;
     font-size: 15pt;
 }
-
-/*
-#t{
-
-    font-weight: bold;
-    background-color: rgba(255, 255, 0, 0.37);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 15pt;
-}
-
-#T{
-
-    font-weight: bold;
-    background-color: rgba(255, 255, 0, 0.37);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 15pt;
-} */
-
-/* #order{
-    color: white;
-    font-weight: bold;
-    font-size: 15pt;
-    background-color: #052a5b;
-    padding-right: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-} */
-
-/*#subtotal{
-
-    position: relative;
-    font-weight: bold;
-    font-size: 15pt;
-    bottom: 150px;
-    left: 1200px;
-
-}
-
-#total{
-
-    position: relative;
-    font-weight: bold;
-    font-size: 15pt;
-    bottom: 45px;
-    left: 1200px;
-
-}
-
-#tax{
-
-    position: relative;
-    font-weight: bold;
-    font-size: 15pt;
-    bottom: 90px;
-    left: 1200px;
-
-}*/
 
 .title{
     left: 100px;
