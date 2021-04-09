@@ -1,6 +1,6 @@
 /*Styles the Checkout Page Page*/
 
-#topline{
+/* #topline{
 
     background-color: #052a5b;
     display: block;
@@ -12,6 +12,23 @@
     margin-left: 20px;
     margin-right: 20px;    
 
+} */
+#form{
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-around;
+} 
+
+#displayTotals{
+    margin-top: 20px;
+    padding: 10px;
+    width: auto;
+    height: fit-content;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 25%;
+    border: 3pt solid #052a5b;
+    border-radius: 5pt;
 }
 
 .movietype{
@@ -20,32 +37,25 @@
     font-weight: bold;
     font-size: 15pt;
     background-color: #052a5b;
-    position: relative;
-    top: 80px;
-    left: 80px;
     padding-left: 50px;
-    padding-right: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 100px;
-    width: 1200px;
-
+    width: auto;
 }
 
-.Addmission{
-
-    position: relative;
-    top: 190px;
+ .ticketType{
     left: 200px;
     font-size: 15pt;
+}
 
+.ticketTypeSelection{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
 }
 
 .counter{
-
-    position: relative;
     left: 1200px;
-    top: 115px;
     font-size: 15pt;
     width: 100px;
     border-top: none;
@@ -53,117 +63,60 @@
     border-right: none;
     outline: none;
     text-align: center;
-    
 }
 
 .price{
-
-    position: relative;
-    left: 1100px;
-    top: 140px;
     font-size: 15pt;
     font-weight: bold;
-    margin: 0 0 0 0;
-   
 }
 
-.Senior{
-
-    position: relative;
-    top: 180px;
-    left: 200px;
-    font-size: 15pt;
-
-}
-
-.child{
-
-    position: relative;
-    top: 180px;
-    left: 200px;
-    font-size: 15pt;
-
-}
-
-#bottomline{
-
+#subbtn{
+    font-size: 12pt;
+    color: white;
     background-color: #052a5b;
-    display: block;
-    color: #052a5b;
-    font-size: 2px;
-    position: relative;
-    top: 200px;
-    margin-left: 20px;
-    margin-right: 20px;    
-
+    height: 50px;
+    width: 180px;
 }
 
-#S{
-
-    position: relative;
+.printTotal{
     font-weight: bold;
     background-color: rgba(255, 255, 0, 0.37);
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 120px;
-    width: 1230px;
+    padding-left: 10px;
     font-size: 15pt;
-    top: 180px;
-    left: 80px;
-
 }
 
+/*
 #t{
 
-    position: relative;
     font-weight: bold;
     background-color: rgba(255, 255, 0, 0.37);
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 120px;
-    width: 1230px;
     font-size: 15pt;
-    top: 180px;
-    left: 80px;
-    margin-top: 40px;
 }
 
 #T{
 
-    position: relative;
     font-weight: bold;
     background-color: rgba(255, 255, 0, 0.37);
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 120px;
-    width: 1230px;
     font-size: 15pt;
-    top: 180px;
-    left: 80px;
-    margin-bottom: 20px;
+} */
 
-
-}
-
-#order{
-
+/* #order{
     color: white;
     font-weight: bold;
     font-size: 15pt;
     background-color: #052a5b;
-    position: relative;
-    top: 80px;
-    left: 80px;
-    padding-left: 50px;
     padding-right: 100px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 150px;
-    width: 1200px;
+} */
 
-}
-
-#subtotal{
+/*#subtotal{
 
     position: relative;
     font-weight: bold;
@@ -191,17 +144,11 @@
     bottom: 90px;
     left: 1200px;
 
-}
+}*/
 
-#title{
-    position: relative;
-    top: 100px;
+.title{
     left: 100px;
     color: #f5b000;
     font-size: 35pt;
     font-weight: bold;
-}
-
-#home{
-    padding-left: 50px;
 }
