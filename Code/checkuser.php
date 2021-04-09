@@ -11,6 +11,9 @@ if (isset($_POST['login'])){
     $password = mysqli_real_escape_string($database, $_POST['password']);
     $correctPass = false;
 
+    //user logged into system
+    $_SESSION['loggedin'] = true;
+
     $database_users = "SELECT Username, Password FROM users ORDER BY Username";
     $result = mysqli_query($database, $database_users);
 
@@ -46,6 +49,12 @@ if (isset($_POST['signup'])) {
 
         header( 'Location: SeatBooking.html' ) ;
     }
+
+    //user logged into system
+    $_SESSION['loggedin'] = 'true';
+
+    //stores user's email for the session
+    $_SESSION['email'] = $email;
 }
 
 ?>
