@@ -12,11 +12,11 @@
     <img src="images/MainLogo.png" id="main"><br><br>
     <!--navigation bar-->
     <div class="topnav">
-        <a href="main-page.html" id="home">Home</a>
-        <a href="Theatres Page.html" id="theatres">Theatres</a>
-        <a href="Movie_Experiences.html" id="movie-experiences">Movie Experiences</a>
-        <a href="foods_and_drinks.html" id="food-and-drinks">Food and Drinks</a>
-        <a href="LSFormT.php"><button id="btn">Book Tickets</button></a>
+        <a href="main-page.html" id="home-nav">Home</a>
+        <a href="Theatres Page.html" id="theatres-nav">Theatres</a>
+        <a href="Movie_Experiences.html" id="movie-experiences-nav">Movie Experiences</a>
+        <a href="foods_and_drinks.html" id="food-and-drinks-nav">Food and Drinks</a>
+        <a href="LSFormT.php"><button id="btn-nav">Book Tickets</button></a>
     </div><br><br><br>
 
     <div>
