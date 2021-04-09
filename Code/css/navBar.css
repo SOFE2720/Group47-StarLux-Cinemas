@@ -92,10 +92,10 @@ body{
     box-shadow: none;
 }
 
-#btn:hover{
+#btn-nav:hover{
     cursor: pointer;
 }
 
-#btn:focus {
+#btn-nav:focus {
     box-shadow: 0 0 3pt 2pt #f5b000;
 }
