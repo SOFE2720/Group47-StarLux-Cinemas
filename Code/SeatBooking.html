@@ -37,7 +37,6 @@
         </div>
 
         
-
         <div class="screen">
             <div class="container">
             
@@ -111,12 +110,12 @@
 
         <h1 id="title">Select Your Seats</h1>
 
-        <p id="legend1">Available =</p>
-        <p id="legend2">Occupied =</p>
-        <p id="legend3">Selected =</p>
-        <p id="open"></p>
-        <p id="chosen"></p>
-        <p id="choice"></p><br><br><br><br>
+        <h2 id="legend1">Available =</h2>
+        <h2 id="legend2">Occupied =</h2>
+        <h2 id="legend3">Selected =</h2>
+        <h2 id="open"></h2>
+        <h2 id="chosen"></h2>
+        <h2 id="choice"></h2><br><br><br><br>
         
         <form action="TicketForm.php" method="POST">
 
@@ -147,8 +146,12 @@
                     <option>Deadpool</option>
                 </optgroup>
             </select>
-            
-            <input type="submit" id = "continue" value="Continue">
+
+            <div id="date-spacing">
+                <input type="date" id="date" name="date" value="2020-12-04" min="2020-12-04" max="2021-02-01" required>
+            </div>
+                
+            <input type="submit" id="continue" value="Continue">
 
         </form>
 

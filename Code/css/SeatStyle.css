@@ -1,9 +1,5 @@
 /*Styles the seat booking page*/
 
-*{
-    box-sizing: border-box;
-}
-
 body{
     background-color: white;
     color: #fff;
@@ -18,7 +14,6 @@ body{
     top: 200px;
     right: 10px;
 }
-
 
 .seat{
     background-color:  #052a5b;
@@ -93,33 +88,32 @@ body{
     position: relative;
 }
 
-#legend3{
+#legend1{
     color: black;
     position: relative;
-    top:85px;
-    left: 470px;
-    margin-bottom: 200px;
+    top: 200px;
+    left: 35px;
     font-size: 20pt;
-    font-weight: bold;  
+    font-weight: bold;
 }
 
 #legend2{
     color: black;
     position: relative;
-    top: 145px;
-    left: 260px;
+    top: 148px;
+    left: 245px;
     font-size: 20pt;
     font-weight: bold;
 }
 
-#legend1{
+#legend3{
     color: black;
     position: relative;
-    top: 200px;
-    left: 50px;
+    top: 96px;
+    left: 455px;
+    margin-bottom: 200px;
     font-size: 20pt;
-    font-weight: bold;
-    position: relative;
+    font-weight: bold; 
 }
 
 #open{
@@ -127,8 +121,8 @@ body{
     height: 30px;
     width: 30px;
     position: relative;
-    left: 200px;
-    bottom: 145px;
+    left: 185px;
+    top: -135px;
 }
 
 #chosen{
@@ -136,8 +130,8 @@ body{
     height: 30px;
     width: 30px;
     position: relative;
-    left: 410px;
-    bottom: 190px;
+    left: 400px;
+    top: -185px;
 }
 
 #choice{
@@ -145,13 +139,13 @@ body{
     height: 30px;
     width: 30px;
     position: relative;
-    left: 610px;
-    bottom: 240px;
+    left: 600px;
+    top: -235px;
 }
 
 #continue{
     position: relative;
-    bottom: 200px;
+    margin-top: 140px;
     right: 200px;
     margin-left: 73%;
     padding-left: 30px;
@@ -165,8 +159,8 @@ body{
 
 #theatres{
     position: relative;
-    bottom: 310px;
-    left: 100px;
+    bottom: 269px;
+    left: 80px;
     width: 250px;
     height: 40px;
     border-radius: 10px;
@@ -177,9 +171,20 @@ body{
 #movies{
     position: relative;
     text-align: center;
-    bottom: 300px;
-    left: 130px;
+    left: 110px;
     font-size: 15px;
-    height: 95px;
     border-radius: 2px;
+    bottom: 258px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#date{
+    height: 40px;
+    font-size: 12pt;
+}
+
+#date-spacing {
+    margin-top: -367px;
+    margin-left: 130px;
 }
