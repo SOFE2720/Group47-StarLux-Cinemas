@@ -13,13 +13,11 @@
     <!--navigation bar-->
     <div class="topnav">
         <a href="main-page.html" id="home">Home</a>
-        <a href="Theatres Page.html">Theatres</a>
-        <a href="Movie_Experiences.html">Movie Experiences</a>
-        <a href="foods_and_drinks.html">Food and Drinks</a>
-        <a href="LSFormT.php">Book Tickets</a>
+        <a href="Theatres Page.html" id="theatres">Theatres</a>
+        <a href="Movie_Experiences.html" id="movie-experiences">Movie Experiences</a>
+        <a href="foods_and_drinks.html" id="food-and-drinks">Food and Drinks</a>
+        <a href="LSFormT.php"><button id="btn">Book Tickets</button></a>
     </div><br><br><br>
-
-    <?php include 'email-verification.php';?>
 
     <div>
         <hr><h1>Thank You!</h1>
