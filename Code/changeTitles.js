@@ -48,8 +48,7 @@ function replace_option(movies, city){
 }
 
 function getMaxDate(){
-    console.log(document.getElementById('date').value)
     var date = new Date();
-    // new Date(new Date().getTime() - new Date().getTimezoneOffset() * 60000).toISOString().split("T")[0];
-    document.getElementById('date').max = date.getDate() + '-' + (date.getMonth() + 1) + '-' + date.getFullYear();
+    var setMax = date.getFullYear() + '-' + ("0" + (date.getMonth() + 2)).slice(-2)  + '-' + ("0" + date.getDate()).slice(-2);
+    document.getElementById('date').setAttribute('max', setMax);
 }
