@@ -34,11 +34,13 @@ function change_titles(){
 }
 
 function replace_option(movies, city){
+    var options = document.getElementById('movies');
     for (var i = 0; i < city.length; i++){
         if (movies[i].style.display == "none"){
             movies[i].style.display = "block";
         }
         movies[i].text = city[i];
+        options[i].value = city[i];
     }
     for (var j = city.length; j < movies.length; j++){
         movies[j].style.display = "none";
