@@ -25,16 +25,12 @@ function total(submit){
     }
 
     if (numOfTickets > a.length){
-        alert ("You must choose exactly " + a.length + " ticket(s)");
-        console.log('invalid');
         if (!disableBtn){
             document.getElementById("subbtn").disabled = true;
             disableBtn = true; 
         }
     }
     else{
-        console.log('valid');
-        console.log(disableBtn);
         if (disableBtn){
             document.getElementById("subbtn").disabled = false;
             disableBtn = false;
