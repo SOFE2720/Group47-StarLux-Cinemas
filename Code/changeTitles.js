@@ -34,11 +34,13 @@ function change_titles(){
 }
 
 function replace_option(movies, city){
+    var options = document.getElementById('movies');
     for (var i = 0; i < city.length; i++){
         if (movies[i].style.display == "none"){
             movies[i].style.display = "block";
         }
         movies[i].text = city[i];
+        options[i].value = city[i];
     }
     for (var j = city.length; j < movies.length; j++){
         movies[j].style.display = "none";
@@ -46,8 +48,7 @@ function replace_option(movies, city){
 }
 
 function getMaxDate(){
-    console.log(document.getElementById('date').value)
     var date = new Date();
-    // new Date(new Date().getTime() - new Date().getTimezoneOffset() * 60000).toISOString().split("T")[0];
-    document.getElementById('date').max = date.getDate() + '-' + (date.getMonth() + 1) + '-' + date.getFullYear();
+    var setMax = date.getFullYear() + '-' + ("0" + (date.getMonth() + 2)).slice(-2)  + '-' + ("0" + date.getDate()).slice(-2);
+    document.getElementById('date').setAttribute('max', setMax);
 }
