@@ -23,17 +23,17 @@
         $email = $_SESSION['email'];
 
         // message
-        $msg = "Thank You for Choosing StarLux Cinemas. This is a purchase confirmation for your order.\n\nMovie: <b>$movie_n</b>\nDate: <b>$date_n</b>\nTheatre Location: 
-            <b>$location_n</b>\n\nEnjoy the show!";
-
-        $msg = wordwrap($msg, 70);
+        $msg = strip_tags("<br>Thank You for Choosing StarLux Cinemas. This is a purchase confirmation for your order.
+        <br>Movie: <b>$movie_n</b><br>Date: <b>$date_n</b><br>Theatre Location: <b>$location_n</b><br><br><br>Enjoy the show!<br><br><br>", "<b><br>");
         
+        $message = wordwrap($msg, 150);
         $subject = 'StarLux e-Ticket Purchase Confirmation';
         $header = 'From: starlux-cinemas@gmail.com';
+        $attachment = "images/MainLogo.png";
 
         if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
             // sends email
-            mail($email, $subject, $msg, $header);
+            mail($email, $subject, $message, $header, $attachment);
         }
     }
     ?>
