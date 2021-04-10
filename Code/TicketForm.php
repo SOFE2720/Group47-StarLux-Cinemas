@@ -144,9 +144,9 @@
                     <div id="total"false class="printTotal">Total: </div>
                     <br>
 
-                    <input type="hidden" name="btn-date" value="<?php $date; ?>" />
-                    <input type="hidden" name="btn-location" value="<?php $location; ?>" />
-                    <input type="hidden" name="btn-movie" value="<?php $movie; ?>" />
+                    <input type="hidden" name="btn-date" value="<?=$date; ?>" />
+                    <input type="hidden" name="btn-location" value="<?=$location; ?>" />
+                    <input type="hidden" name="btn-movie" value="<?=$movie; ?>" />
 
                     <button type="submit" id="subbtn" name="subbtn" value="submit" onclick="total(true)">Purchase Tickets</button>
                 </div>

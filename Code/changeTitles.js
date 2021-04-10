@@ -19,22 +19,21 @@ function change_titles(){
 
     var movies_results = document.getElementById("movies").options;
 
-    if (loc_result == 1){
+    if (loc_result == 'Brampton'){
         replace_option(movies_results, brampton);
     }
-    else if (loc_result == 2){
+    else if (loc_result == 'North York'){
         replace_option(movies_results, northyork);
     }
-    else if (loc_result == 3){
+    else if (loc_result == 'Mississauga'){
         replace_option(movies_results, sauga);
     }
-    else if (loc_result == 4){
+    else if (loc_result == 'Markham'){
         replace_option(movies_results, markham);
     }
 }
 
 function replace_option(movies, city){
-    console.log("working");
     for (var i = 0; i < city.length; i++){
         if (movies[i].style.display == "none"){
             movies[i].style.display = "block";
@@ -44,4 +43,11 @@ function replace_option(movies, city){
     for (var j = city.length; j < movies.length; j++){
         movies[j].style.display = "none";
     }
+}
+
+function getMaxDate(){
+    console.log(document.getElementById('date').value)
+    var date = new Date();
+    // new Date(new Date().getTime() - new Date().getTimezoneOffset() * 60000).toISOString().split("T")[0];
+    document.getElementById('date').max = date.getDate() + '-' + (date.getMonth() + 1) + '-' + date.getFullYear();
 }
