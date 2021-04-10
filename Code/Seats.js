@@ -18,16 +18,13 @@ const populateUI = () => {
 
 populateUI();
 
-selectedMovie = (movieIndex, moviePrice) => {
-    localStorage.setItem('selectedMovieIndex', movieIndex);
-    localStorage.setItem('selectedMoviePrice', moviePrice);
-};
-
 const updateSelectedSeatsCount = () => {
     const selectedSeats = document.querySelectorAll('.row .selected');
     const seatsIndex = [...selectedSeats].map(seat => [...seats].indexOf(seat));
 
     localStorage.setItem('selectedSeats', JSON.stringify(seatsIndex));
+
+    // const selectedSeatsCount = selectedSeats.length;
 };
 
 container.addEventListener('click', e => {
@@ -35,11 +32,4 @@ container.addEventListener('click', e => {
         e.target.classList.toggle('selected');
         updateSelectedSeatsCount();
     }
-});
-
-movieSelect.addEventListener('change', e => {
-    ticketPrice = +e.target.value;
-    selectedMovie(e.target.selectedIndex, e.target.value);
-
-    updateSelectedSeatsCount();
 });
