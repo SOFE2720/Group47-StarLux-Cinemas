@@ -1,8 +1,5 @@
 <?php
 
-include 'checkUser.php';
-include 'TicketForm.php';
-
 session_start();
 
 $database = mysqli_connect('localhost', 'root', '', 'webfinal');

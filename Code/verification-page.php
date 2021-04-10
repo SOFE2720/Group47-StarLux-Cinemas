@@ -8,6 +8,40 @@
     <link rel="stylesheet" href="css/verify.css" type="text/css">
 </head>
 <body>
+
+    <?php
+
+    session_start();
+
+    if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['subbtn'])){
+        
+        $date_n = $_POST['btn-date'];
+        echo $date_n;
+        $location_n = $_POST['btn-location'];
+        echo $location_n;
+        $movie_n = $_POST['btn-movie'];
+        echo $movie_n;
+
+        //do it onclick
+
+        $database = mysqli_connect('localhost', 'root', '', 'webfinal');
+        $email = $_SESSION['email'];
+        echo $email;
+
+        // message
+        $msg = "Thank You for Choosing StarLux Cinemas.\n\nThis is a purchase confirmation 
+        for your order.\n\nMovie: <b>$movie_n</b>\nDate: <b>$date_n</b>\nTheatre Location: 
+            <b>$location_n</b>\n\nEnjoy the show!";
+
+        $msg = wordwrap($msg, 70);
+
+        if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
+            // sends email
+            mail($email, "StarLux e-Ticket Purchase Confirmation", $msg);
+        }
+    }
+    ?>
+
     <!--StarLux Cinemas logo-->
     <img src="images/MainLogo.png" id="main"><br><br>
     <!--navigation bar-->
