@@ -26,21 +26,22 @@
         $msg = "<html>
                     <body>
                         <br>
-                        Thank You for Choosing StarLux Cinemas. This is a purchase confirmation for your order.<br>
+                        Thank you for choosing StarLux! This is a purchase confirmation for your order.<br><br>
                         Movie: <b>$movie_n</b><br>
                         Date: <b>$date_n</b><br>
-                        Theatre Location: <b>$location_n</b>
-                        <br><br><br>
+                        Theatre Location: <b>$location_n</b><br><br><br>
                         Enjoy the show!<br>
+                        <b>StarLux Cinemas</b>
                     <body>
                 <html>";
         
         $message = wordwrap($msg, 150);
+
+        //formats html in the email
         $headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-
-        $subject = 'StarLux e-Ticket Purchase Confirmation';
         $headers .= 'From: starlux-cinemas@gmail.com';
+        $subject = 'StarLux e-Ticket Purchase Confirmation';
 
         if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
             // sends email
