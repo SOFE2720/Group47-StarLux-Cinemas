@@ -23,7 +23,7 @@ function total(submit){
         numOfTickets += getNumOfTickets('generalAX') + getNumOfTickets('seniorAX') + getNumOfTickets('childAX');
 
     }
-
+    //disable purchase tickets button if tickets exceed seats
     if (numOfTickets > a.length){
         if (!disableBtn){
             document.getElementById("subbtn").disabled = true;
