@@ -14,10 +14,6 @@ const populateUI = () => {
             }
         });
     }
-
-    // const selectedMovieIndex = localStorage.getItem('selectedMovieIndex');
-    // const selectedMoviePrice = localStorage.getItem('selectedMoviePrice');
-
 };
 
 populateUI();
@@ -32,8 +28,6 @@ const updateSelectedSeatsCount = () => {
     const seatsIndex = [...selectedSeats].map(seat => [...seats].indexOf(seat));
 
     localStorage.setItem('selectedSeats', JSON.stringify(seatsIndex));
-
-    // const selectedSeatsCount = selectedSeats.length;
 };
 
 container.addEventListener('click', e => {
