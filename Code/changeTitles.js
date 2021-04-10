@@ -50,5 +50,8 @@ function replace_option(movies, city){
 function getMaxDate(){
     var date = new Date();
     var setMax = date.getFullYear() + '-' + ("0" + (date.getMonth() + 2)).slice(-2)  + '-' + ("0" + date.getDate()).slice(-2);
+    var setMin = date.getFullYear() + '-' + ("0" + (date.getMonth() + 1)).slice(-2)  + '-' + ("0" + date.getDate()).slice(-2);
     document.getElementById('date').setAttribute('max', setMax);
+    document.getElementById('date').setAttribute('min', setMin);
+
 }
