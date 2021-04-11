@@ -3,7 +3,7 @@
     <head>
         <link rel="stylesheet" href="css/FormDesign.css">
         <link rel="stylesheet" href="css/navBar.css">
-        <script type="text/javascript" src="TicketsCalculations.js"></script>
+        <script type="text/javascript" src="js/TicketsCalculations.js"></script>
         
         <img src="images/MainLogo.png" id="main"><br><br>
         <div class="topnav">
