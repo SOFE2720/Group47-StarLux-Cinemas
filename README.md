@@ -7,7 +7,7 @@ Our vision is to increase efficiency by reducing the wait time for purchasing ti
 ## Table of Contents
 
 1. [Code Folder](https://github.com/SOFE2720/Group47-StarLux-Cinemas/tree/main/Code)
-2. [Desgin Folder](https://github.com/SOFE2720/Group47-StarLux-Cinemas/tree/main/Design)
+2. [Design Folder](https://github.com/SOFE2720/Group47-StarLux-Cinemas/tree/main/Design)
      * i.) [Prototypes](https://github.com/SOFE2720/Group47-StarLux-Cinemas/tree/main/Design/Prototypes)
      * ii.) [Class Diagram](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/main/Design/Class%20Diagram.jpg)
      * iii.) [Class Sequence Diagram](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/main/Design/Class%20Level%20Sequence%20Diagram.png)
@@ -21,7 +21,7 @@ Our vision is to increase efficiency by reducing the wait time for purchasing ti
 5. [Use Cases](https://github.com/SOFE2720/Group47-StarLux-Cinemas/tree/main/Use%20Cases)
      * i.) [Use Case Diagrams](https://github.com/SOFE2720/Group47-StarLux-Cinemas/tree/main/Use%20Cases/Use%20Case%20Diagrams)
      * ii.) [Use Case Details](https://github.com/SOFE2720/Group47-StarLux-Cinemas/tree/main/Use%20Cases/Use%20Case%20Details)
-     * iii.) [JamBoard](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/main/Use%20Cases/Jam%20Board.jpg)
+     * iii.) [Jam Board](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/main/Use%20Cases/Jam%20Board.jpg)
      * iv.) [User Stories](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/main/Use%20Cases/User%20Stories.pdf)
      * v.) [User Scenario](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/main/Use%20Cases/User%20Scenario.pdf)
      * vi.)[Conceptual Model Diagram](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/main/Use%20Cases/Conceptual%20Model%20Diagram.jpg)
