@@ -81,13 +81,19 @@
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
-    font-size: 15pt;
+    font-size: 13pt;
 }
 
-.title{
+#title{
     left: 100px;
     color: #f5b000;
     font-size: 35pt;
+    font-weight: bold;
+}
+
+#order{
+    color: #f5b000;
+    font-size: 20pt;
     font-weight: bold;
 }
 

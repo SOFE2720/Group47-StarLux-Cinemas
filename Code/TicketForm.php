@@ -27,7 +27,7 @@
 
                     <input type="hidden" id="theatreLocation" value="<?php echo $location ?>" />
 
-                    <h1 class="title">StarLux <?php echo $location?> Cinemas </h1>
+                    <h1 id="title">StarLux <?php echo $location?> Cinemas </h1>
                     
                     <!--Standard, 3D and IMAX ticket selection (avalible for all locations)-->
                     <div class="movietype">Standard Tickets</div>
@@ -137,12 +137,11 @@
                     <?php } ?>
                 </div> 
                 <div id="displayTotals">
-                    <div id="order" class="title">Order Summary</div> <br>
-                    <br>
+                    <div id="order">Order Summary</div> <br>
                     <div id="subtotal"false class="printTotal">Subtotal: </div> <br>
                     <div id="tax" class="printTotal">Tax: </div> <br>
                     <div id="total"false class="printTotal">Total: </div>
-                    <br><br>
+                    <br>
                 
                     <div id = "creditCardInput">
                         <div id = "paymentOptions">
