@@ -1,12 +1,10 @@
 # Overview
 
 This folder consists of all the behavioural, class and component models that were designed for this application, as well as initial prototypes.
-
 <br></br>
 The **Prototypes folder** includes several mockups that were created prior to the creation of the website. 
 >There are two mockups for the main page, and one each for the food and drinks page, seat booking page and theatres page.
->
-<br></br>
+><br></br>
 The **Class Diagram** showcases the primary classes of this application and the relationships between them. It provides an abstract, object-oriented model with the specific class attributes, methods and types. 
 <br><br>
 The details of the interaction flow sequence among system components are shown through the **Class Level Sequence Diagram**.
