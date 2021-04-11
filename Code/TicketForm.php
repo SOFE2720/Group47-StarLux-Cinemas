@@ -139,9 +139,9 @@
                 <div id="displayTotals">
                     <div id="order" class="title">Order Summary</div> <br>
                     <br>
-                    <div id="subtotal"false class="printTotal">Subtotal: </div> <br>
+                    <div id="subtotal"false class="printTotal">Total: </div> <br>
                     <div id="tax" class="printTotal">Tax: </div> <br>
-                    <div id="total"false class="printTotal">Total: </div>
+                    <div id="total"false class="printTotal">Subtotal: </div>
                     <br><br>
                 
                     <div id = "creditCardInput">
