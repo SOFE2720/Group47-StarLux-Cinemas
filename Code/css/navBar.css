@@ -82,7 +82,7 @@ body{
 .nav-button{
     color: #f2f2f2;
 }
-.active{
+a.active{
     background-color: #ddd;
     color: black;
 }
