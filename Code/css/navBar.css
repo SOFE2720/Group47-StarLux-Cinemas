@@ -67,7 +67,6 @@ body{
 
 .topnav a, #home-nav, #theatres-nav, #food-and-drinks-nav{
     float: left;
-    color: #f2f2f2;
     text-align: center;
     text-decoration: none;
     font-size: 20px;
@@ -80,8 +79,10 @@ body{
     color: black;
 }
 
-#home-nav:active, #movie-experiences-nav:active,
-#theatres-nav:active, #food-and-drinks-nav:active{
+.nav-button{
+    color: #f2f2f2;
+}
+.active{
     background-color: #ddd;
     color: black;
 }
