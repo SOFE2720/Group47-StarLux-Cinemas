@@ -153,6 +153,10 @@ body{
     background-color: #052a5b;
 }
 
+#continue:hover{
+    cursor: pointer;
+}
+
 #theatres{
     position: relative;
     bottom: 269px;
