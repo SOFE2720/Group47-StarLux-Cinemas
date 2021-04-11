@@ -10,9 +10,11 @@ The OMDB API is used in order to display movie posters and their pertaining deta
 Users are required to signup/login to the system and their information will be stored in a database. To access the database, it will need to be created locally through
 WAMP Server's MySQL Console. Write the following commands in the console to do so:
 
-`CREATE DATABASE webfinal;`
-`USE webfinal;`
-`CREATE TABLE users (Id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY, Username VARCHAR(50) NOT NULL, Password VARCHAR(60) NOT NULL, Email VARCHAR(50) NOT NULL);`
+```
+CREATE DATABASE webfinal;
+USE webfinal;
+CREATE TABLE users (Id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY, Username VARCHAR(50) NOT NULL, Password VARCHAR(60) NOT NULL, Email VARCHAR(50) NOT NULL);
+```
 
 An alternative for writing console commands is to simply open phpMyAdmin through WAMP and create a database from there.
 
