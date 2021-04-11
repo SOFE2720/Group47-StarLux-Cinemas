@@ -30,21 +30,6 @@ body{
     display: flex;
 }
 
-.topnav a, #home-nav, #theatres-nav, #food-and-drinks-nav{
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    position: relative;
-}
-
-#movie-experiences-nav:hover, #home-nav:hover, #theatres-nav:hover,
-#food-and-drinks-nav:hover{
-    background-color: #ddd;
-    color: black;
-}
-
 .topnav a{
     padding: 20px 46.5px 100px;
     margin-left: 80px;
@@ -78,6 +63,27 @@ body{
     margin-left: 70px;
     margin-right: -70px;
     left: 70px;
+}
+
+.topnav a, #home-nav, #theatres-nav, #food-and-drinks-nav{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+
+#movie-experiences-nav:hover, #home-nav:hover, #theatres-nav:hover,
+#food-and-drinks-nav:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+#home-nav:active, #movie-experiences-nav:active,
+#theatres-nav:active, #food-and-drinks-nav:active{
+    background-color: #ddd;
+    color: black;
 }
 
 #btn-nav{
