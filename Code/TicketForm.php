@@ -169,8 +169,8 @@
 
                     <button type="submit" id="subbtn" name="subbtn" value="submit" onclick="total(true)">Purchase Tickets</button>
                 </div>
-                <br><br><br>
             </div>
+            <br><br><br>
         </form>
     </body>
 </html>
