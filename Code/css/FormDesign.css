@@ -8,7 +8,7 @@
 #displayTotals{
     margin-top: 30px;
     padding: 10px;
-    width: auto;
+    width: fit-content;
     height: fit-content;
     position: -webkit-sticky;
     position: sticky;
@@ -62,6 +62,17 @@
     background-color: #052a5b;
     height: 50px;
     width: 180px;
+    margin: auto; 
+    display: block;
+}
+
+#subbtn:hover{
+    cursor: pointer;
+    background-color: #103c75;
+}
+
+#subbtn:disabled{
+    background-color: grey;
 }
 
 .printTotal{
@@ -78,4 +89,54 @@
     color: #f5b000;
     font-size: 35pt;
     font-weight: bold;
+}
+
+#creditCardInput{
+    font-size: larger;
+    font-weight: bold;
+    text-align-last: center;
+    vertical-align: middle;
+}
+
+.creditCardInfo{
+    border-radius: 5pt;
+    height: 30px;
+    text-align: center;
+    font-size: 70%;
+    width: fit-content;
+}
+
+  .cc-selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+.visa{background-image:url('../images/visa-logo.png'); vertical-align: bottom;}
+.mastercard{background-image:url('../images/mastercard-logo.png');}
+.AMEX{background-image:url('../images/AMEX-logo.png');}
+
+.cc-selector input:active +.drinkcard-cc{opacity: .9;}
+.cc-selector input:checked +.drinkcard-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.drinkcard-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:100px;height:70px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(.7) opacity(.5);
+}
+.drinkcard-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
 }

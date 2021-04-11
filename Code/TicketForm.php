@@ -142,8 +142,27 @@
                     <div id="subtotal"false class="printTotal">Subtotal: </div> <br>
                     <div id="tax" class="printTotal">Tax: </div> <br>
                     <div id="total"false class="printTotal">Total: </div>
-                    <br>
-
+                    <br><br>
+                
+                    <div id = "creditCardInput">
+                        <div id = "paymentOptions">
+                            <div class="cc-selector">
+                                <input id="visa" type="radio" name="credit-card" value="visa"  checked/>
+                                <label class="drinkcard-cc visa" for="visa"></label>
+                                <input id="mastercard" type="radio" name="credit-card" value="mastercard" />
+                                <label class="drinkcard-cc mastercard"for="mastercard"></label>
+                                <input id="AMEX" type="radio" name="credit-card" value="AMEX" />
+                                <label class="drinkcard-cc AMEX"for="AMEX"></label>
+                            </div>
+                        </div>
+                        <br>
+                    
+                        <label for = "creditCardNum">Card Number:</label>
+                        <input id = "creditCardNum" class = "creditCardInfo" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="XXXX XXXX XXXX XXXX" required>
+                        <label for = "cvv">CVV:</label>
+                        <input id = "cvv" class = "creditCardInfo" type="tel" inputmode="numeric" pattern="[0-9\s]{3}" autocomplete="cc-number" maxlength="3" placeholder="XXX" required>  
+                    </div>
+                    <br><br>
                     <input type="hidden" name="btn-date" value="<?=$date; ?>" />
                     <input type="hidden" name="btn-location" value="<?=$location; ?>" />
                     <input type="hidden" name="btn-movie" value="<?=$movie; ?>" />
