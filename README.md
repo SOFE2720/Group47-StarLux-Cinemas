@@ -18,7 +18,7 @@ Our vision is to increase efficiency by reducing the wait time for purchasing ti
      * ii.) [Outline of Stakeholders](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/main/Requirements/Outline%20of%20Stakeholders.pdf)
      * iii.) [Requirements Table](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/main/Requirements/Requirements%20Table.pdf)
 4. [Test Case Folder](https://github.com/SOFE2720/Group47-StarLux-Cinemas/tree/main/__tests__)
-5. [Use Cases](https://github.com/SOFE2720/Group47-StarLux-Cinemas/tree/main/Use%20Cases)
+5. [Use Cases Folder](https://github.com/SOFE2720/Group47-StarLux-Cinemas/tree/main/Use%20Cases)
      * i.) [Use Case Diagrams](https://github.com/SOFE2720/Group47-StarLux-Cinemas/tree/main/Use%20Cases/Use%20Case%20Diagrams)
      * ii.) [Use Case Details](https://github.com/SOFE2720/Group47-StarLux-Cinemas/tree/main/Use%20Cases/Use%20Case%20Details)
      * iii.) [Jam Board](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/main/Use%20Cases/Jam%20Board.jpg)
