@@ -5,11 +5,11 @@ This folder consists of **stakeholder needs and requirements** for this web-base
 
 There are **five** different stakeholders that contribute to the requirements:
 
-1) Facilitator
-2) Product Manager
-3) End Users
-4) Architectural Engineer/Software Architect
-5) Software Developers
+>1) Facilitator
+>2) Product Manager
+>3) End Users
+>4) Architectural Engineer/Software Architect
+>5) Software Developers
 
 An **outline of the stakeholders** is attached, which describes their roles in detail with relation to the application.
 
