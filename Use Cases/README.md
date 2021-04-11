@@ -10,4 +10,4 @@ This folder contains the Use Cases with it's corresponding Use Case Descriptions
 
 This folder also contains a User Scenario, Conceptual Diagram and Class Responsibility Table for the Seat Selection requirement.
 
->The User Scenario contains the noun phrases table which is obtained through grammatical pasring of the user scenario to get the Actors, Attributes and Actors. With these 3 properties defined a Conseptual Diagram is created to demonstate the relationship between them.
+>The User Scenario contains the noun phrases table which is obtained through grammatical pasring of the user scenario to get the Actors, Attributes and Actors. With these 3 properties defined a Conseptual Diagram is created to demonstate the relationship between the properties.
