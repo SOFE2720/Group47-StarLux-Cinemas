@@ -25,4 +25,4 @@ Our vision is to increase efficiency by reducing the wait time for purchasing ti
      * iv.) [User Stories](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/main/Use%20Cases/User%20Stories.pdf)
      * v.) [User Scenario](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/main/Use%20Cases/User%20Scenario.pdf)
      * vi.)[Conceptual Model Diagram](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/main/Use%20Cases/Conceptual%20Model%20Diagram.jpg)
-     * vii.)[Class Responsibility Table](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/main/Use%20Cases/Conceptual%20Model%20Diagram.jpg)
+     * vii.)[Class Responsibility Table](https://github.com/SOFE2720/Group47-StarLux-Cinemas/blob/b3d2597b28b870be1157e5aa5ad4e210f171b302/Use%20Cases/Class%20Responsibility%20Table.png)
