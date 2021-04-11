@@ -2,7 +2,7 @@
 
 This folder consists of all the behavioural, class and component models that were designed for this application, as well as initial prototypes.
 
-<br></br>
+<br />
 The **Prototypes folder** includes several mockups that were created prior to the creation of the website. 
 >There are two mockups for the main page, and one each for the food and drinks page, seat booking page and theatres page.
 >
