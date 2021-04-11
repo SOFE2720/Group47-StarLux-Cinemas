@@ -1,3 +1,4 @@
+# Overview
 This folder contains all the code for the StarLux Cinemas web application. To run this appplication, download the code and extract the zip file. A local server such as 
 WAMP Server is required for deployment. The main-page.html file would need to be launched.
 
