@@ -158,9 +158,9 @@
                         <br>
                     
                         <label for = "creditCardNum">Card Number:</label>
-                        <input id = "creditCardNum" class = "creditCardInfo" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="XXXX XXXX XXXX XXXX" required>
+                        <input id = "creditCardNum" class = "creditCardInfo" type="tel" inputmode="numeric" pattern="[0-9]{16}" title = "16 digit card number" x-autocompleteype="cc-number" maxlength="16" placeholder="XXXXXXXXXXXXXXXX" required>
                         <label for = "cvv">CVV:</label>
-                        <input id = "cvv" class = "creditCardInfo" type="tel" inputmode="numeric" pattern="[0-9\s]{3}" autocomplete="cc-number" maxlength="3" placeholder="XXX" required>  
+                        <input id = "cvv" class = "creditCardInfo" type="tel" inputmode="numeric" pattern="[0-9]{3}" x-autocompleteype="cc-number" maxlength="3" placeholder="XXX" required>  
                     </div>
                     <br><br>
                     <input type="hidden" name="btn-date" value="<?=$date; ?>" />
