@@ -14,7 +14,7 @@ WAMP Server's MySQL Console. Write the following commands in the console to do s
 `USE webfinal;`
 `CREATE TABLE users (Id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY, Username VARCHAR(50) NOT NULL, Password VARCHAR(60) NOT NULL, Email VARCHAR(50) NOT NULL);`
 
-An alternative for writing console commands is to simply open phpMyAdmin through WAMp and create a database from there.
+An alternative for writing console commands is to simply open phpMyAdmin through WAMP and create a database from there.
 
 ## Email Confirmation
 
@@ -24,6 +24,7 @@ MUST sign up with a gmail account (@gmail.com) and follow the steps below to con
 ### Configuring sendmail using WAMP
 
 Please refer to the following video to setup email confirmation:
+
 https://www.youtube.com/watch?v=fGyvB9DkDBA
 
 **Note: If you have the wamp64 version, make sure to write 'wamp64' instead of 'wamp' on line 1038 where it says sendmail_path (php.ini file)**
